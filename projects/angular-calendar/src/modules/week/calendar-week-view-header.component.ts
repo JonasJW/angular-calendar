@@ -44,9 +44,6 @@ import { trackByWeekDayHeaderDate } from '../common/util';
         >
           <b>{{ day.date | calendarDate: 'weekViewColumnHeader':locale }}</b
           ><br />
-          <span>{{
-            day.date | calendarDate: 'weekViewColumnSubHeader':locale
-          }}</span>
         </div>
       </div>
     </ng-template>
